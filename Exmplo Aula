@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        
+        String nome = "Andrei";
+        Scanner leia = new Scanner (System.in);
+        
+       System.out.println("Seu nome e " + nome);
+
+       System.out.println("Informe seu Nome");
+       String nomeProfessor = leia.next();
+       
+       System.out.println("Informe seu Sobrenome");
+       String sobrenomeProfessor = leia.next();
+    
+    
+       System.out.println("Informe sua Idade");
+       int idade = leia.nextInt();
+       
+       //next espera o enter e joga o valor na variavel
+       //nextLine pega a informacao da linha inteira
+        
+       System.out.println("Seu nome e " + nomeProfessor);   
+       System.out.println("Seu Sobrenome e " + sobrenomeProfessor);
+       System.out.println("Seu Sobrenome e " + idade);  
+       
+       
+       leia.close();
+    }
+}
